@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: linear-gradient(#007991, #78FFD6);
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    height: 30vh;
+}
+
+.btn {
+    margin-top: 20px;
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10vh;
+    text-decoration: none;
+    border-radius: 12px;
+    position: absolute;
+    bottom: 300px;
+}
+
+.btn a:hover {
+    color: rgb(0, 0, 0);
+}
+
+.btn a {
+    display: block;
+    width: 100%;
+    border: none;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    color: #423f3f;
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 17px
+}
+
+/* Media Queries for Responsive Design */
+@media screen and (min-width: 576px) {
+    .container {
+        padding: 40px; /* Adjust padding for small screens */
+    }
+
+    .btn {
+        margin-top: 30px; /* Adjust margin for small screens */
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .container {
+        padding: 50px; /* Adjust padding for medium screens */
+    }
+
+    .btn {
+        margin-top: 40px; /* Adjust margin for medium screens */
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .container {
+        padding: 60px; /* Adjust padding for large screens */
+    }
+
+    .btn {
+        margin-top: 50px; /* Adjust margin for large screens */
+    }
+}
